@@ -24,8 +24,10 @@ SECRET_KEY = 't5ts9ngzs#1%2t*7xpdr2!n(xdoa(9t)mnsw*y#3lb@bdd%tuw'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
+#DEBUG = False
 
 ALLOWED_HOSTS = []
+#ALLOWED_HOSTS = ['0.0.0.0']
 
 
 # Application definition
@@ -38,7 +40,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 
-    'baidu',
+    'test',
 ]
 
 MIDDLEWARE = [
